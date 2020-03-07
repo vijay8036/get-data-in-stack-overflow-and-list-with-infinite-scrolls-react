@@ -1,24 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import FetchData from "./component/FetchData";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vijay su kare che, added new p</p>
-        <p>new paragraph added by Rakshit Patel</p>
-        <p>Wel Come React Git</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <FetchData />
     </div>
   );
 }
